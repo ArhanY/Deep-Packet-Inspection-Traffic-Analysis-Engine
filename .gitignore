@@ -1,0 +1,23 @@
+# Build output
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated packet-capture output (the committed fixture is kept for tests)
+*.pcap
+!test_dpi.pcap
+
+# Logs and temporary files
+*.log
+*.tmp
